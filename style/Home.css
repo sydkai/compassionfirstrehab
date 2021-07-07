@@ -125,4 +125,8 @@ ul{
         color: white;
         padding-top: 50px;
     }
+    .section-light ul{
+        width: 300px;
+        padding-right: 10px;
+    }
 }
