@@ -205,3 +205,25 @@ header .logo
     font-size: 2em;
   }
 }
+@media (min-width: 320px) and (max-width: 480px){
+  .text{
+    position: absolute;
+    top: 120px;
+  }
+  .text h2{
+    font-size: 1.9em;
+  }
+  .text h3{
+    font-size: 1.5em;
+  }
+  .logo a img{
+    width: 175px;
+  }
+  .toggle{
+    position: absolute;
+    right: 70px;
+  }
+  ul{
+    top: 400px;
+  }
+}
