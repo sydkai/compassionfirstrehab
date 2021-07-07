@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Calibri, sans-serif;
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav .logoname a{
+    text-decoration: none;
+    float: left;
+    
+}
+
+nav .mainmenu{
+    display: flex;
+    list-style: none;
+}
+
+nav .mainmenu li a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+}
