@@ -111,3 +111,18 @@ ul{
     }
 
 }
+@media (min-width: 320px) and (max-width: 480px){
+    .pimg1, .pimg2, .pimg3, .pimg4{
+        background-size: 600px;
+        position: relative;
+        background-color: rgb(11, 103, 156);
+    }
+    h1{
+        margin-top: 15%;
+        color:white;
+    }
+    h5{
+        color: white;
+        padding-top: 50px;
+    }
+}

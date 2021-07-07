@@ -106,4 +106,17 @@ span img{
         display: block;
     }
 }
+@media (min-width: 320px) and (max-width: 480px){
+    .logo a img{
+        width: 40px;
+        padding-top: 15px;
+    }
+    .brand a{
+        font-size: 18px;
+        float: right;
+        padding-right: 20px;
+        margin-left: -35px;
+        
+    }
+}
   
