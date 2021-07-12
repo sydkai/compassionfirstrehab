@@ -13,6 +13,10 @@ body, html{
   text-align: center;
   padding: 10px 10px 30px 30px;
 }
+.about {
+  text-transform: uppercase;
+  font-size: 40px;
+}
 .pic1, .pic2{
   position: relative;
   opacity: 0.70;
@@ -33,7 +37,9 @@ body, html{
   min-height: 50%;
   z-index: -1;
 }
-
+.provider{
+  text-transform: uppercase;
+}
 
 .aboutus{
   background-color: #282e28;
@@ -78,4 +84,15 @@ h1{
   .pic1, .pic2{
     background-attachment: scroll;
   }
+}
+@media (min-width: 320px) and (max-width: 420px){
+  .about{
+    font-size: 30px;
+    color: red;
+  }
+  .provider{
+    font-size: 30px;
+    color: white;
+  }
+  
 }
